@@ -1,15 +1,11 @@
 import React from "react";
 
-function UserCard() {
-  function fetchFromS3() {
-    console.log("start fetching");
-  }
+function Usercard({ info }) {
   return (
     <div>
-      <div>User Name</div>
-      <button onClick={fetchFromS3}>Click To Get Info</button>
+      {info.name} : {info.country}
     </div>
   );
 }
 
-export default UserCard;
+export default Usercard;

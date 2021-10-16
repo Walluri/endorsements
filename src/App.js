@@ -1,5 +1,5 @@
 import "./App.css";
-import UserCard from "./components/userCard";
+import CardHolder from "./components/CardHolder";
 import CardContent from "./components/cardContent";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         appreciation on the right.
       </h3>
       <div className="container">
-        <UserCard></UserCard>
+        <CardHolder></CardHolder>
         <CardContent></CardContent>
       </div>
     </div>
