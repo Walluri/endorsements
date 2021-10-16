@@ -1,2 +1,5 @@
-# endorsements
-This is small website developed using React + AWS Amplify + S3. The purpose i have developed this website is that I could show the appreciation emails that I have received from various people of my organization.
+This is small website developed using React + AWS Amplify + S3.
+
+I had appreceiation emails from different people in my organization.
+
+I have developed this website so that I could show the appreciation emails all in one place.
