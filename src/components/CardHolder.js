@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data/UserData";
-import Usercard from "./UserCard";
+import UserCard from "./UserCard";
 function CardHolder({ cb }) {
   return (
     <div className="cardHolderContainer">
@@ -8,7 +8,7 @@ function CardHolder({ cb }) {
         {data.map(function (v, i, a) {
           return (
             <li key={i}>
-              <Usercard info={v} cb={cb} />
+              <UserCard info={v} cb={cb} />
             </li>
           );
         })}

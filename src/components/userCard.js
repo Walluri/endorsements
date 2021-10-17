@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Usercard({ info, cb }) {
+function UserCard({ info, cb }) {
   const [user, setUser] = useState(info);
   function clickHandler(e) {
     console.log(`clicked on ${user.name}`);
@@ -13,4 +13,4 @@ function Usercard({ info, cb }) {
   );
 }
 
-export default Usercard;
+export default UserCard;
