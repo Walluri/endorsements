@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../data/UserData";
 import UserCard from "./UserCard";
+
 function CardHolder({ cb }) {
   return (
     <div className="cardHolderContainer">
