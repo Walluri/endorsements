@@ -2,7 +2,12 @@ import "./App.css";
 import CardHolder from "./components/CardHolder";
 import CardContent from "./components/cardContent";
 
+import { useState } from "react";
 function App() {
+  const [url, setUrl] = useState("");
+  function clickedOnUser(url) {
+    setUrl(url);
+  }
   return (
     <div>
       <h3>
@@ -10,8 +15,8 @@ function App() {
         appreciation on the right.
       </h3>
       <div className="container">
-        <CardHolder></CardHolder>
-        <CardContent></CardContent>
+        <CardHolder cb={clickedOnUser}></CardHolder>
+        <CardContent url={url}></CardContent>
       </div>
     </div>
   );

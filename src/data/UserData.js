@@ -27,7 +27,7 @@ const userData = [
   new User(
     "Shashi Pandharkar",
     "Product Owner",
-    "Sweden ",
+    "India ",
     "https://valluri-endorsement.s3.ap-south-1.amazonaws.com/Appreciation_Shashi_Pandarkar.png"
   ),
   new User(

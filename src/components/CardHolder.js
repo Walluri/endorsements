@@ -1,14 +1,14 @@
 import React from "react";
 import data from "../data/UserData";
 import Usercard from "./UserCard";
-function CardHolder() {
+function CardHolder({ cb }) {
   return (
-    <div>
-      <ul>
+    <div className="cardHolderContainer">
+      <ul className="cardHolder">
         {data.map(function (v, i, a) {
           return (
             <li key={i}>
-              <Usercard info={v} />
+              <Usercard info={v} cb={cb} />
             </li>
           );
         })}
