@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data/UserData";
-import UserCard from "./UserCard";
+import UserProfile from "./UserProfile";
 
 function CardHolder({ cb }) {
   return (
@@ -9,7 +9,7 @@ function CardHolder({ cb }) {
         {data.map(function (v, i, a) {
           return (
             <li key={i}>
-              <UserCard info={v} cb={cb} />
+              <UserProfile info={v} cb={cb} />
             </li>
           );
         })}
